@@ -1,0 +1,21 @@
+﻿<!-- Menu dành riêng cho User -->
+<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+    <span>👷 NGHIỆP VỤ KHO</span>
+</h6>
+<ul class="nav flex-column">
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="WarehouseOps" asp-action="CreateGoodsReceipt">
+            <i class="fas fa-arrow-circle-down fa-fw me-2"></i> Nhập kho
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="WarehouseOps" asp-action="CreateGoodsIssue">
+            <i class="fas fa-arrow-circle-up fa-fw me-2"></i> Xuất kho
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="WarehouseOps" asp-action="Index">
+            <i class="fas fa-boxes fa-fw me-2"></i> Xem tồn kho
+        </a>
+    </li>
+</ul>
